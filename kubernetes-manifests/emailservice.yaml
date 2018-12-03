@@ -25,7 +25,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: gcr.io/microservices-demo-app/emailservice
+        image: gcr.io/apigee-dev-training-b4c22/emailservice
         ports:
         - containerPort: 8080
         readinessProbe:
