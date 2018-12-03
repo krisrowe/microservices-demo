@@ -16,27 +16,27 @@ apiVersion: skaffold/v1alpha5
 kind: Config
 build:
   artifacts:
-  - image: gcr.io/microservices-demo-app/emailservice
+  - image: gcr.io/apigee-dev-training-b4c22/emailservice
     context: src/emailservice
-  - image: gcr.io/microservices-demo-app/productcatalogservice
+  - image: gcr.io/apigee-dev-training-b4c22/productcatalogservice
     context: src/productcatalogservice
-  - image: gcr.io/microservices-demo-app/recommendationservice
+  - image: gcr.io/apigee-dev-training-b4c22/recommendationservice
     context: src/recommendationservice
-  - image: gcr.io/microservices-demo-app/shippingservice
+  - image: gcr.io/apigee-dev-training-b4c22/shippingservice
     context: src/shippingservice
-  - image: gcr.io/microservices-demo-app/checkoutservice
+  - image: gcr.io/apigee-dev-training-b4c22/checkoutservice
     context: src/checkoutservice
-  - image: gcr.io/microservices-demo-app/paymentservice
+  - image: gcr.io/apigee-dev-training-b4c22/paymentservice
     context: src/paymentservice
-  - image: gcr.io/microservices-demo-app/currencyservice
+  - image: gcr.io/apigee-dev-training-b4c22/currencyservice
     context: src/currencyservice
-  - image: gcr.io/microservices-demo-app/cartservice
+  - image: gcr.io/apigee-dev-training-b4c22/cartservice
     context: src/cartservice
-  - image: gcr.io/microservices-demo-app/frontend
+  - image: gcr.io/apigee-dev-training-b4c22/frontend
     context: src/frontend
-  - image: gcr.io/microservices-demo-app/loadgenerator
+  - image: gcr.io/apigee-dev-training-b4c22/loadgenerator
     context: src/loadgenerator
-  - image: gcr.io/microservices-demo-app/adservice
+  - image: gcr.io/apigee-dev-training-b4c22/adservice
     context: src/adservice
   tagPolicy:
     gitCommit: {}
